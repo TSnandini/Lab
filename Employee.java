@@ -32,8 +32,7 @@ public class Employee
 		System.out.println(empName+"\t"+empNo+"\t"+gender+"\t"+expYrs+"\t"+basicSalary+"\t"+bonus+"\t"+netSalary+"\n");
 	}
 
-public class EmployeeDetails
-{
+public class EmployeeDetails{
 	public static void main(String[] args) 
 	{
 		System.out.println("empName\t empno\tgender\texpYrs\tbasicSalary\tbonus\tnetSalary \n");
@@ -47,6 +46,6 @@ public class EmployeeDetails
 		Madhu.setEmployee("Madhu", 7851161, "female", (byte) 25, 150000.0d);
 		Madhu.getEmployeeDetails();
 	}
-}
+   }
 
 }
